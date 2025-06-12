@@ -1427,7 +1427,7 @@ local Character = char
 local Root = char.HumanoidRootPart
 introsound = Instance.new("Sound",Root)
 introsound.SoundId = "rbxassetid://236146895"
-introsound.Volume = 4
+introsound.Volume = 2
 introsound:Play()
 
 bigfedora = Instance.new("Part",Character)
