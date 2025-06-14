@@ -556,6 +556,7 @@ elseif k == "f" then
 dancing = true
 task.wait(.005)
         sound69.SoundId = customasset("Dances/order.mp3")
+        sound69.PlaybackSpeed = 2
         char.Humanoid.WalkSpeed = 4*char:GetScale()
         timeposcur = sound69.TimePosition 
 sound69:Play()
