@@ -480,11 +480,11 @@ sound69:Play()
 stopanim()
 dancing = true
 task.wait(.005)
-sound69.SoundId = customasset("Dances/rat.mp3")
-sound69.PlaybackSpeed = 1
+sound69.SoundId = customasset("Dances/boogie.mp3")
+sound69.PlaybackSpeed = 2
 timeposcur = sound69.TimePosition 
 sound69:Play()
-playanim(95554773857507)
+playanim(16769959846)
 		else
 stopanim()
 sound69.PlaybackSpeed = 1
@@ -495,11 +495,11 @@ if dancing == false then
 	stopanim()
 dancing = true
 task.wait(.005)
-	sound69.SoundId = customasset("Dances/boogie.mp3")
+	sound69.SoundId = customasset("Dances/RatDance.mp3")
 	sound69.PlaybackSpeed = 1
 	timeposcur = sound69.TimePosition 
 sound69:Play()
-	playanim(16769959846)
+	playanim(95554773857507)
 else
 	stopanim()
 	sound69.PlaybackSpeed = 1
