@@ -997,7 +997,7 @@ elseif k == "l" then
         sound69.SoundId = customasset("Dances/phonkyturn.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(89046713686252,2)
+        playanim(89046713686252,3)
     else
         stopanim()
         
