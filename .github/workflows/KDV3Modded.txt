@@ -997,7 +997,7 @@ elseif k == "l" then
         sound69.SoundId = customasset("Dances/phonkyturn.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(89046713686252)
+        playanim(89046713686252,2)
     else
         stopanim()
         
@@ -1147,7 +1147,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/doodle.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(137721173051346,2)
+        playanim(137721173051346)
     else
         stopanim()
     end
@@ -1195,7 +1195,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/danceifyourethegoat.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(80641587562132)
+        playanim(80641587562132,2)
     else
         stopanim()
     end
