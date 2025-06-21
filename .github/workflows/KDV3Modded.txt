@@ -18,7 +18,7 @@ local playbacktrack = true
 local script = Instance.new("LocalScript")
 local OxideApi = loadstring(game:HttpGet("https://raw.githubusercontent.com/sparezirt/Utility/refs/heads/main/.github/SonixApi"))()
 local timeposcur = 0 
-OxideApi.Notification("Krystal Dance V3, Made by Hemi, Modded by Sonixery",10)
+OxideApi.Notification("Krystal Dance V3 Modded by Sonixery, Full Credits to hemi",10)
 local playanother = false
 local playing = false
 local dancing = false
