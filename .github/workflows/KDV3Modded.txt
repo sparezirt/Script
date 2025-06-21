@@ -898,7 +898,7 @@ elseif k == "u" then
         sound69.SoundId = customasset("Dances/bloodpop.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(132026285699359)
+        playanim(111038494387073)
     else
         stopanim()
         
@@ -994,10 +994,10 @@ elseif k == "l" then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/egypt.mp3")
+        sound69.SoundId = customasset("Dances/phonkyturn.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(122731803660658,2)
+        playanim(89046713686252)
     else
         stopanim()
         
@@ -1147,7 +1147,7 @@ sound69:Play()
         sound69.SoundId = customasset("Dances/doodle.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(115551770065646)
+        playanim(137721173051346,2)
     else
         stopanim()
     end
@@ -1192,10 +1192,10 @@ sound69:Play()
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/decadent.mp3")
+        sound69.SoundId = customasset("Dances/danceifyourethegoat.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(84587788869282,.35,true,nil,false)
+        playanim(80641587562132)
     else
         stopanim()
     end
