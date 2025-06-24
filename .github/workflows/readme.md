@@ -3,3 +3,4 @@
 - Official Oxide Github (Original Krystal Dance V3 originated from: https://github.com/Nitro-GT ) 
 - Oxide Discord Server: https://discord.gg/RZu22ctD (Discord link)
 - i simply modded it. if you skid it ask the owner first.
+- hi testfebypass u skid
