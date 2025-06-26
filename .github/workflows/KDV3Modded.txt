@@ -1,4 +1,5 @@
--- Krystal Dance V3, Made by Hemi (es muy janky)
+-- Krystal Dance V3, Made by Hemi (May you have a good life, hemi.)
+-- Crimson is now the respective owner of oxide. 
 if not isfolder("Dances") then 
     makefolder("Dances")
     end
@@ -18,7 +19,7 @@ local playbacktrack = true
 local script = Instance.new("LocalScript")
 local OxideApi = loadstring(game:HttpGet("https://raw.githubusercontent.com/sparezirt/Utility/refs/heads/main/.github/SonixApi"))()
 local timeposcur = 0 
-OxideApi.Notification("Krystal Dance V3 Modded by Sonixery, Full Credits to hemi",10)
+OxideApi.Notification("Krystal Dance Modded V1 by Sonixery, Full Credits to Crimson",10)
 local playanother = false
 local playing = false
 local dancing = false
