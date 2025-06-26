@@ -1,4 +1,4 @@
-game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("KDV3 Modded, credits to Hemi")
+game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("KDV3 Modded, credits to Crimson")
 task.wait(3)
 
 
