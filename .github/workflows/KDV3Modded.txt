@@ -1255,10 +1255,10 @@ elseif k == "l" then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/Mystery.mp3")
+        sound69.SoundId = customasset("Dances/Mesmerizer.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(131401099812672)
+        playanim(98605693116996)
     else
         stopanim()
         
