@@ -1,4 +1,5 @@
 loadstring(game:HttpGet("https://rawscripts.net/raw/Just-a-baseplate.-Just-A-Baseplate-Working-Reanimation-39126"))()
+getgenv().iSaidEpic = true
 task.wait(3)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/sparezirt/Script/refs/heads/main/.github/Modded/krystal.txt"))()
 task.wait(2)
