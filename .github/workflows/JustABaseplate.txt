@@ -3,7 +3,7 @@ task.wait(3)
 loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Delta-keyboard-cracked-by-Ata-27431"))()
 task.wait(1)
 getgenv().iSaidEpic = true
-loadstring(game:HttpGet("https://raw.githubusercontent.com/sparezirt/Script/refs/heads/main/.github/Modded/krystal.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sparezirt/Script/refs/heads/main/.github/Modded/EKDV1.txt"))()
 task.wait(2)
 game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("Epic script")
 
