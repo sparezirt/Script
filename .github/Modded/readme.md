@@ -1,2 +1,2 @@
 # this is just random thing i made or script that i made with astric/astra
-- oh if u skid it ill hunt you btw
+- if u see very very sigma script without obfuscated u can take it, i dont care anymore
