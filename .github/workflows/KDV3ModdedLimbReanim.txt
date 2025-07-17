@@ -1,3 +1,36 @@
-loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-CurrentAngle-V2-Full-axis-reanimate-43351"))()
-task.wait(10)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/sparezirt/Script/refs/heads/main/.github/Modded/krystal.txt"))()
+if _G.Loaded2 then return warn("Sup Bro! The Script Is Loaded!") end
+_G.Loaded2 = true
+--loadstring(game:HttpGet("https://raw.githubusercontent.com/Solary-3/Scripts/refs/heads/main/Reanimate.lua"))()
+
+-- SETTINGS --
+local settings = _G
+
+settings["Use default animations"] = true
+settings["Fake character transparency level"] = 1 -- 0 to disable
+settings["Disable character scripts"] = true
+settings["Fake character should collide"] = true
+settings["Parent real character to fake character"] = false
+settings["Respawn character"] = true 
+settings["Instant respawn"] = false 
+settings["Hide HumanoidRootPart"] = false 
+settings["PermaDeath fake character"] = true 
+settings["R15 Reanimate"] = false 
+
+settings["Names to exclude from transparency"] = {
+    --[[ example:
+    ["HumanoidRootPart"] = true,
+    ["Left Arm"] = true
+    ]]
+}
+(function() if getgenv then return getgenv() else return _G end end)().fling = nil
+local finished = false
+
+task.spawn(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/somethingsimade/CurrentAngleV2/refs/heads/main/v2"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Solary-3/Scripts/refs/heads/main/ToolKdv3.lua"))()
+end)
+
+repeat task.wait() until finished
+
+-- USAGE: getgenv().fling(character, time, yield) if you dont have getgenv: _G.fling(character, time, yield)
+-- or just fling(character, time, yield)
