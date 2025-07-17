@@ -1,6 +1,6 @@
 if _G.Loaded2 then return warn("Sup Bro! The Script Is Loaded!") end
 _G.Loaded2 = true
---loadstring(game:HttpGet("https://raw.githubusercontent.com/Solary-3/Scripts/refs/heads/main/Reanimate.lua"))()
+--loadstring(game:HttpGet("https://raw.githubusercontent.com/sparezirt/Script/refs/heads/main/.github/Modded/GelatekWithASprinkle.txt"))()
 
 -- SETTINGS --
 local settings = _G
